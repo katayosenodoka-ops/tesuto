@@ -11,6 +11,7 @@ body {
     color: #5a5a5a;
     background: linear-gradient(135deg, #fff5fb 0%, #f0e6fd 100%);
     min-height: 100vh;
+    width: 100%;
 }
 
 /* ================== ナビゲーション ================== */
@@ -236,7 +237,6 @@ body {
 
 .detail-item:hover {
     transform: translateX(10px);
-    box-shadow: 0 5px 20px rgba(255, 105, 180, 0.2);
 }
 
 .detail-item .icon {
@@ -269,7 +269,6 @@ body {
 .skill-card:hover {
     transform: translateY(-10px);
     border-color: #ff69b4;
-    box-shadow: 0 15px 40px rgba(255, 105, 180, 0.2);
 }
 
 .skill-icon {
@@ -312,7 +311,6 @@ body {
 
 .project-card:hover {
     transform: translateY(-15px);
-    box-shadow: 0 20px 50px rgba(255, 105, 180, 0.3);
 }
 
 .project-image {
@@ -351,7 +349,6 @@ body {
 
 .btn-small:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
 }
 
 /* ================== 連絡先セクション ================== */
@@ -389,7 +386,6 @@ body {
 
 .contact-btn:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
     background: linear-gradient(135deg, #ff69b4 0%, #ba55d3 100%);
 }
 
