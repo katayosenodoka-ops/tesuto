@@ -209,11 +209,6 @@ body {
     transform: translateX(10px);
 }
 
-.detail-item .icon {
-    font-size: 2rem;
-    margin-right: 1rem;
-}
-
 .detail-item p {
     display: inline-block;
     color: #5a5a5a;
@@ -239,17 +234,6 @@ body {
 .skill-card:hover {
     transform: translateY(-8px);
     border-color: #c9b9ae;
-}
-
-.skill-icon {
-    font-size: 3rem;
-    display: block;
-    margin-bottom: 1rem;
-    transition: transform 0.3s ease;
-}
-
-.skill-card:hover .skill-icon {
-    transform: scale(1.08);
 }
 
 .skill-card h3 {
@@ -359,6 +343,11 @@ body {
 .contact-btn:hover {
     transform: translateY(-2px);
     background: #ece2db;
+}
+
+.contact-btn i {
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
 }
 
 /* ================== フッター ================== */
